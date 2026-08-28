@@ -1,0 +1,83 @@
+PYTHON ASSIGNMENT (KANAK PARYANI FY DIV-9)
+### ASSIGNMENT 1
+#data management using python collection
+#ADD STUDENT RECORD IN DICTIONARY
+d={}
+for i in range(0,2):
+    n=input("enter student's name")
+    r=int(input("enter student's roll no"))
+    b=input("enter student's branch")
+    m=int(input("enter student's marks"))
+    d[n]=[r,b,m]
+print(d)
+#to delete a record
+x=input("enter key to be deleted")
+d.pop(x)
+print(d)
+# to update a record
+print("update record")
+n=input("enter student's name")
+r=int(input("enter student's roll no"))
+b=input("enter student's branch")
+m=int(input("enter student's marks"))
+d.update({n:[r,b,m]})
+print(d)
+OUTPUT
+enter student's namekanak
+enter student's roll no24
+enter student's branchcse
+enter student's marks89
+enter student's namerima
+enter student's roll no25
+enter student's branchece
+enter student's marks76
+{'kanak': [24, 'cse', 89], 'rima': [25, 'ece', 76]}
+enter key to be deletedrima
+{'kanak': [24, 'cse', 89]}
+update record
+enter student's namekanak
+enter student's roll no23
+enter student's branchece
+enter student's marks98
+{'kanak': [23, 'ece', 98]}
+
+ASSIGNMENT 2
+#PROGRAM TO CHECK LARGEST OF THREE NUMBERS
+a=int(input("enter no."))
+b=int(input("enter no."))
+c=int(input("enter no."))
+if a>b and a>c:
+    print(a," is the largest no.")
+elif b>c and b>a:
+    print(b," is the largest no.")
+else:
+    print(c,"is the largest no.")
+
+OUTPUT
+enter no.3
+enter no.4
+enter no.5
+5 is the largest no.
+
+ASSIGNMENT 3
+#INPUT SIDES OF TRIANGLE AND CHECK WHETHER IT IS RIGHT ANGLED OR NOT
+a=int(input("enter side length"))
+b=int(input("enter side length"))
+c=int(input("enter side length"))
+l=[a,b,c]
+l.sort()
+if l[2]**2==l[0]**2 + l[1]**2 :
+    print("yes given triangle is right angled")
+else:
+    print("no, the given triangle is not right angled")
+OUTPUT
+enter side length3
+enter side length4
+enter side length5
+yes given triangle is right angled
+
+enter side length3
+enter side length6
+enter side length8
+no, the given triangle is not right angled
+
