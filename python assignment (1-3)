@@ -1,4 +1,4 @@
-PYTHON ASSIGNMENT (KANAK PARYANI FY DIV-9)
+PYTHON ASSIGNMENT[1-3] (KANAK PARYANI FY DIV-9)
 ### ASSIGNMENT 1
 #data management using python collection
 #ADD STUDENT RECORD IN DICTIONARY
@@ -41,7 +41,7 @@ enter student's branchece
 enter student's marks98
 {'kanak': [23, 'ece', 98]}
 
-ASSIGNMENT 2
+### ASSIGNMENT 2
 #PROGRAM TO CHECK LARGEST OF THREE NUMBERS
 a=int(input("enter no."))
 b=int(input("enter no."))
@@ -59,7 +59,7 @@ enter no.4
 enter no.5
 5 is the largest no.
 
-ASSIGNMENT 3
+### ASSIGNMENT 3
 #INPUT SIDES OF TRIANGLE AND CHECK WHETHER IT IS RIGHT ANGLED OR NOT
 a=int(input("enter side length"))
 b=int(input("enter side length"))
