@@ -1,5 +1,5 @@
 ### ASSIGNMENT 4
-# PROGRAM TO INPUT MATRICES AND ADD THEM USING NUMPY AN D ARRAYS 
+# PROGRAM TO INPUT MATRICES AND ADD THEM USING NUMPY AND ARRAYS 
 import numpy as np
 r=int(input("Enter no of rows:"))
 c=int(input("Enter no of columns:"))
@@ -35,6 +35,11 @@ check_pan(pan)
 OUTPUT
 Enter your correct PAN No.ABCDE6789K
 valid PAN format
+
+OUTPUT
+Enter your correct PAN No.STFGUIUIH
+Invalid PAN id format
+
 
         
     
