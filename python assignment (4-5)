@@ -1,0 +1,40 @@
+### ASSIGNMENT 4
+# PROGRAM TO INPUT MATRICES AND ADD THEM USING NUMPY AN D ARRAYS 
+import numpy as np
+r=int(input("Enter no of rows:"))
+c=int(input("Enter no of columns:"))
+a=np.array([list(map(int,input().split()))for i in range(r)])
+b=np.array([list(map(int,input().split()))for i in range(r)])
+print("addition of matrices")
+print(a+b)
+
+OUTPUT
+Enter no of rows:2
+Enter no of columns:3
+1 2 3
+4 5 6
+7 8 9
+10 11 12
+addition of matrices
+[[ 8 10 12]
+ [14 16 18]]
+
+
+### ASSIGNMENT 5
+#PAN VERIFICATION USING REGEX MODULE
+import re
+def check_pan(pan):
+    pattern=r'^[A-Z]{5}[0-9]{4}[A-Z]$'
+    if re.match(pattern,pan):
+        print("valid PAN format")
+    else:
+        print("Invalid PAN id format")
+pan=input("Enter your correct PAN No.")
+check_pan(pan)     
+
+OUTPUT
+Enter your correct PAN No.ABCDE6789K
+valid PAN format
+
+        
+    
